@@ -2,26 +2,26 @@
 #include <vector>
  using namespace std;
   
-        void addconta(){
+        void addconta(int name, int number){
 
         };
 
 
 
-        void procconta (){
+        void procconta (int number){
 
         };
 
 
 
 
-        void excluconta (){
+        void excluconta (int number){
 
         };
   
   
   int main (){
-       int resp
+       int resp,nome,numero;
 
            vector<int>nome;
            vector<int>numero;
@@ -40,14 +40,40 @@ do{
 
         switch(resp){
              case 1:
+                cout<<"digite o nome que quer adcionar: ";
+                cin>>nomes;
+                 cout<<"agora coloque o numero do contato "<<nedl;
+                 cin>>numeros;
+                    
+                    nome.push_back(nomes);
+                     numero.push_back(numeros);
+
+                   addconta(nomes,numeros);
 
              break;
 
              case 2:
+               cout<<"digite o nome que quer procurar: ";
+                cin>>nome;
+                 cout<<"agora coloque o numero do contato "<<nedl;
+                 cin>>numero;
+                      
+
+                     procconta(number);
 
              break;
 
              case 3:
+
+               cout<<"digite o nome que quer adcionar: ";
+                cin>>nome;
+                 cout<<"agora coloque o numero do contato "<<nedl;
+                 cin>>numero;
+
+                     excluconta(number);
+
+
+
 
              break;
 

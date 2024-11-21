@@ -2,13 +2,20 @@
 #include <vector>
  using namespace std;
   
-        void addconta(int name, int number){
-
-        };
-
-
-
+      
         void procconta (int number){
+           
+          
+           for (int x = 0; x < numero.size(); x++){
+                 if(numero[x] == number){
+                     cout<<"o numero foi encontrado "<<number<<" com os dados"<<endl;
+                     
+                 }else{
+                      cout<<"não encontramos"<<endl;
+                 }
+                 
+           }
+
 
         };
 
@@ -48,7 +55,7 @@ do{
                     nome.push_back(nomes);
                      numero.push_back(numeros);
 
-                   addconta(nomes,numeros);
+                   
 
              break;
 
@@ -80,4 +87,3 @@ do{
         }
     return 0;
   }
- 
